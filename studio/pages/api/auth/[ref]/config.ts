@@ -47,7 +47,7 @@ const handleGetAll = async (req: NextApiRequest, res: NextApiResponse) => {
     SMTP_PASS: null,
     SMTP_MAX_FREQUENCY: 0,
     EXTERNAL_EMAIL_ENABLED: true,
-    EXTERNAL_PHONE_ENABLED: true,
+    EXTERNAL__ENABLED: true,
     EXTERNAL_APPLE_ENABLED: false,
     EXTERNAL_APPLE_CLIENT_ID: null,
     EXTERNAL_APPLE_SECRET: null,
